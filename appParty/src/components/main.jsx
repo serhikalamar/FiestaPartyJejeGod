@@ -1,15 +1,15 @@
 import React from "react";
-import { Text, Vierw, View } from "react-native";
+import { Text,  View } from "react-native";
 import Constants from 'expo-constants'
 
 const Main = () => {
     return(
-        <Vierw style={{
+        <View style={{
             marginTop: Constants.statusBarHeight,
             flexGrow: 1
         }}>
             <Text>Rate Repository Application</Text>
-        </Vierw>
+        </View>
     )
 }
 export default Main
