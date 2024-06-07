@@ -15,7 +15,8 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.73.6",
-    "react-native-web": "~0.19.6"
+    "react-native-web": "~0.19.6",
+    "expo-font": "~11.10.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -31,6 +32,10 @@
   "private": true,
   "eslintConfig": {
     "parser": "babel-eslint",
-    "extends":["standard", "standard-jsx", "standard-react"]
+    "extends": [
+      "standard",
+      "standard-jsx",
+      "standard-react"
+    ]
   }
 }

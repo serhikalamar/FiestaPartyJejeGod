@@ -10,9 +10,8 @@ const Main = () => {
             marginTop: Constants.statusBarHeight,
             flexGrow: 1
         }}>
-            <Text>Nigga XD</Text>
             <InicioPantalla/>
-            <InicioSesion />
+            
         </View>
         
     )
