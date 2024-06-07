@@ -1,6 +1,8 @@
 import React from "react";
 import { Text,  View } from "react-native";
 import Constants from 'expo-constants'
+import { InicioPantalla } from "./inicio.jsx";
+import { InicioSesion } from "./inicioSesion.jsx";
 
 const Main = () => {
     return(
@@ -8,8 +10,11 @@ const Main = () => {
             marginTop: Constants.statusBarHeight,
             flexGrow: 1
         }}>
-            <Text>Rate Repository Application</Text>
+            <Text>Nigga XD</Text>
+            <InicioPantalla/>
+            <InicioSesion />
         </View>
+        
     )
 }
 export default Main
